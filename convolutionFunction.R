@@ -68,14 +68,8 @@ name = 'Michael Archibeque'
 
 conv <- function(x,y){
   
-  # I assign the parameters of the function to private variables
-  # within the function. I do this because this is what I learned
-  # to do in Java and C++ when creating objects because it is more 
-  # secure. However, I recognize an R function is not precisely an 
-  # object in the same sense. In future functions I will not do this, 
-  # but I already wrote the function before I saw your comments on
-  # my previous projects, and I do not want to ruin something that
-  # already works in order to save a little bit of memory.
+  # I assign the parameters of the function to private variables within
+  # the function.
   
   vectorx <- x
   vectory <- y
